@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Python
+backend/__pycache__/
+backend/.venv/
+backend/*.pyc
+*.pyc
+__pycache__/
+
+# SQLite database (não versionar dados de produção — remova se quiser versionar o schema)
+backend/portoflow.db
+
+# OS
+.DS_Store
+Thumbs.db
